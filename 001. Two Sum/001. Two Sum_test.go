@@ -1,4 +1,4 @@
-package Leetcode___Go
+package _01__Two_Sum
 
 import (
 	"testing"
@@ -6,7 +6,7 @@ import (
 	"sort"
 )
 
-func Test_TwoSum(t *testing.T)  {
+func Test_twoSum(t *testing.T)  {
 
 	nums := []int{1, 2, 7, 11, 15}
 	target := 9

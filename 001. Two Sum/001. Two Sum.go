@@ -1,4 +1,4 @@
-package Leetcode___Go
+package _01__Two_Sum
 
 func twoSum(nums []int, target int) []int {
 	numMap := map[int]int{}
