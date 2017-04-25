@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c62393-e6df-4222-b539-ba8968fe3255" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/001. Two Sum/001. Two Sum.go" afterPath="$PROJECT_DIR$/001. Two Sum/001. Two Sum.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="001. Two Sum.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/001. Two Sum/001. Two Sum.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+            <state relative-caret-position="272">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -270,6 +271,9 @@
     <history-entry file="All_in_'001__Two_Sum' - 2017.04.25 at 16h 42m 48s.xml">
       <configuration name="All in '001. Two Sum'" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="All_in_'001__Two_Sum' - 2017.04.25 at 21h 00m 19s.xml">
+      <configuration name="All in '001. Two Sum'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
     <history-entry file="All_in_'Leetcode---Go' - 2017.04.25 at 15h 17m 42s.xml">
       <configuration name="All in 'Leetcode---Go'" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -332,6 +336,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/001. Two Sum/001. Two Sum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/001. Two Sum/001. Two Sum_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -344,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/001. Two Sum/001. Two Sum.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+        <state relative-caret-position="272">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
