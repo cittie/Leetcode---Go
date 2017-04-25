@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c62393-e6df-4222-b539-ba8968fe3255" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/goLibraries.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__Leetcode___Go_.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Go_SDK.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/001. Two Sum/001. Two Sum.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/001. Two Sum/001. Two Sum_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/001. Two Sum/001. Two Sum.go" afterPath="$PROJECT_DIR$/001. Two Sum/001. Two Sum.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,21 +17,9 @@
       <file leaf-file-name="001. Two Sum.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/001. Two Sum/001. Two Sum.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="001. Two Sum_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/001. Two Sum/001. Two Sum_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <folding>
-                <element signature="e#23#63#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -58,6 +41,7 @@
       <list>
         <option value="$PROJECT_DIR$/001. Two Sum.go" />
         <option value="$PROJECT_DIR$/001. Two Sum_test.go" />
+        <option value="$PROJECT_DIR$/001. Two Sum/001. Two Sum.go" />
       </list>
     </option>
   </component>
@@ -106,6 +90,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Leetcode---Go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="001. Two Sum" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -279,6 +267,9 @@
     <history-entry file="All_in_'001__Two_Sum' - 2017.04.25 at 16h 23m 45s.xml">
       <configuration name="All in '001. Two Sum'" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="All_in_'001__Two_Sum' - 2017.04.25 at 16h 42m 48s.xml">
+      <configuration name="All in '001. Two Sum'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
     <history-entry file="All_in_'Leetcode---Go' - 2017.04.25 at 15h 17m 42s.xml">
       <configuration name="All in 'Leetcode---Go'" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -303,11 +294,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="780" y="16" width="1139" height="1017" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24933214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -345,15 +337,15 @@
         <state relative-caret-position="128">
           <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
-            <element signature="e#23#63#0" expanded="true" />
+            <element signature="e#23#63#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001. Two Sum/001. Two Sum.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
           <folding />
         </state>
       </provider>

@@ -7,8 +7,7 @@ func twoSum(nums []int, target int) []int {
 	for i := range nums {
 		_, ok := numMap[nums[i]]
 		if ok {
-			result[0] = i
-			result[1] = numMap[nums[i]]
+			result[0], result[1] = i, numMap[nums[i]]
 		} else {
 			numMap[target-nums[i]] = i
 		}
