@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c62393-e6df-4222-b539-ba8968fe3255" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/002. Add Two Numbers/002. Add Two Numbers.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/002. Add Two Numbers/002. Add Two Numbers_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/LinkedListHelper.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters_test.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +15,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,6 +43,8 @@
         <option value="$PROJECT_DIR$/002. Add Two Numbers/002. Add Two Numbers.go" />
         <option value="$PROJECT_DIR$/002. Add Two Numbers/002. Add Two Numbers_test.go" />
         <option value="$PROJECT_DIR$/lib/LinkedListHelper.go" />
+        <option value="$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters_test.go" />
+        <option value="$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters.go" />
       </list>
     </option>
   </component>
@@ -135,6 +136,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="003. Longest Substring Without Repeating Characters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode---Go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode---Go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="002. Add Two Numbers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -185,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.All in '002. Add Two Numbers'">
+  <component name="RunManager" selected="Go Test.All in '003. Longest Substring Without Repeating Characters'">
     <configuration default="false" name="All in '007. Reverse Integer'" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="Leetcode---Go" />
       <working_directory value="$PROJECT_DIR$/007. Reverse Integer" />
@@ -193,16 +208,6 @@
       <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$/007. Reverse Integer" />
       <filePath value="$PROJECT_DIR$" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Test_reverse in 007. Reverse Integer_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="Leetcode---Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^Test_reverse$" />
       <method />
     </configuration>
     <configuration default="false" name="Test_reverse in 007. Reverse Integer_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
@@ -230,6 +235,15 @@
       <framework value="gotest" />
       <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$/002. Add Two Numbers" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in '003. Longest Substring Without Repeating Characters'" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="Leetcode---Go" />
+      <working_directory value="$PROJECT_DIR$/003. Longest Substring Without Repeating Characters" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/003. Longest Substring Without Repeating Characters" />
       <filePath value="$PROJECT_DIR$" />
       <method />
     </configuration>
@@ -329,18 +343,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Test.All in '007. Reverse Integer'" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.Test_reverse in 007. Reverse Integer_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.Test_reverse in 007. Reverse Integer_test.go (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.All in '015. 3Sum'" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.All in '002. Add Two Numbers'" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.Test_reverse in 007. Reverse Integer_test.go (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.All in '015. 3Sum'" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.All in '002. Add Two Numbers'" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.All in '003. Longest Substring Without Repeating Characters'" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.All in '002. Add Two Numbers'" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.All in '015. 3Sum'" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.All in '007. Reverse Integer'" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.Test_reverse in 007. Reverse Integer_test.go (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.Test_reverse in 007. Reverse Integer_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.All in '003. Longest Substring Without Repeating Characters'" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.All in '002. Add Two Numbers'" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.All in '015. 3Sum'" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.All in '007. Reverse Integer'" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.Test_reverse in 007. Reverse Integer_test.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -358,15 +372,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_'002__Add_Two_Numbers' - 2017.04.28 at 11h 12m 13s.xml">
-      <configuration name="All in '002. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'002__Add_Two_Numbers' - 2017.04.28 at 11h 14m 30s.xml">
-      <configuration name="All in '002. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'002__Add_Two_Numbers' - 2017.04.28 at 11h 15m 11s.xml">
-      <configuration name="All in '002. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="All_in_'002__Add_Two_Numbers' - 2017.04.28 at 11h 16m 47s.xml">
       <configuration name="All in '002. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -388,14 +393,23 @@
     <history-entry file="All_in_'002__Add_Two_Numbers' - 2017.04.28 at 17h 25m 30s.xml">
       <configuration name="All in '002. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="All_in_'003__Longest_Substring_Without_Repeating_Characters' - 2017.05.01 at 10h 51m 39s.xml">
+      <configuration name="All in '003. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'003__Longest_Substring_Without_Repeating_Characters' - 2017.05.01 at 10h 53m 10s.xml">
+      <configuration name="All in '003. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'003__Longest_Substring_Without_Repeating_Characters' - 2017.05.01 at 10h 53m 42s.xml">
+      <configuration name="All in '003. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="780" y="16" width="1139" height="1017" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24933214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24933214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -433,7 +447,7 @@
         <state relative-caret-position="272">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#30#62#0" expanded="true" />
+            <element signature="e#30#62#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -442,7 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -450,7 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -461,13 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/twoDIntSliceSort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/015. 3Sum/015. 3Sum_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -475,25 +480,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/015. 3Sum/015. 3Sum.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/001. Two Sum/001. Two Sum.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/007. Reverse Integer/007. Reverse Integer_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -501,16 +491,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="60" />
-          <folding>
-            <element signature="e#22#62#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015. 3Sum/015. 3Sum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/002. Add Two Numbers/002. Add Two Numbers.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="589">
           <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/twoDIntSliceSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/LinkedListHelper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -520,16 +531,36 @@
         <state relative-caret-position="1136">
           <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
           <folding>
-            <element signature="e#30#62#0" expanded="true" />
+            <element signature="e#30#62#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/LinkedListHelper.go">
+    <entry file="file://$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="304">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#61#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/007. Reverse Integer/007. Reverse Integer_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="76" />
+          <folding>
+            <element signature="e#30#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
