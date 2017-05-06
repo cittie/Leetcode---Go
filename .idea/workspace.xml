@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c62393-e6df-4222-b539-ba8968fe3255" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/004. Median of Two Sorted Array/004. Median of Two Sorted Arrays.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/004. Median of Two Sorted Array/004. Median of Two Sorted Arrays_test.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters.go" afterPath="$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,18 +15,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="003. Longest Substring Without Repeating Characters.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +45,8 @@
         <option value="$PROJECT_DIR$/lib/LinkedListHelper.go" />
         <option value="$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters_test.go" />
         <option value="$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters.go" />
+        <option value="$PROJECT_DIR$/004. Median of Two Sorted Array/004. Median of Two Sorted Arrays_test.go" />
+        <option value="$PROJECT_DIR$/004. Median of Two Sorted Array/004. Median of Two Sorted Arrays.go" />
       </list>
     </option>
   </component>
@@ -82,6 +74,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -146,6 +140,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="004. Median of Two Sorted Array" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode---Go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode---Go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="003. Longest Substring Without Repeating Characters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -180,8 +188,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.All in '003. Longest Substring Without Repeating Characters'">
+  <component name="RunManager" selected="Go Test.All in '004. Median of Two Sorted Array'">
     <configuration default="false" name="All in '007. Reverse Integer'" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="Leetcode---Go" />
       <working_directory value="$PROJECT_DIR$/007. Reverse Integer" />
@@ -218,16 +224,6 @@
       <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$/007. Reverse Integer" />
       <filePath value="$PROJECT_DIR$" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Test_reverse in 007. Reverse Integer_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="Leetcode---Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^Test_reverse$" />
       <method />
     </configuration>
     <configuration default="false" name="All in '015. 3Sum'" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
@@ -254,6 +250,15 @@
       <framework value="gotest" />
       <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$/003. Longest Substring Without Repeating Characters" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in '004. Median of Two Sorted Array'" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="Leetcode---Go" />
+      <working_directory value="$PROJECT_DIR$/004. Median of Two Sorted Array" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/004. Median of Two Sorted Array" />
       <filePath value="$PROJECT_DIR$" />
       <method />
     </configuration>
@@ -353,18 +358,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Test.All in '007. Reverse Integer'" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.Test_reverse in 007. Reverse Integer_test.go (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.All in '015. 3Sum'" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.All in '002. Add Two Numbers'" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.All in '003. Longest Substring Without Repeating Characters'" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.All in '015. 3Sum'" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.All in '002. Add Two Numbers'" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.All in '003. Longest Substring Without Repeating Characters'" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.All in '004. Median of Two Sorted Array'" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.All in '003. Longest Substring Without Repeating Characters'" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.All in '002. Add Two Numbers'" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.All in '015. 3Sum'" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.All in '007. Reverse Integer'" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.Test_reverse in 007. Reverse Integer_test.go (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.All in '004. Median of Two Sorted Array'" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.All in '003. Longest Substring Without Repeating Characters'" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.All in '002. Add Two Numbers'" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.All in '015. 3Sum'" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.All in '007. Reverse Integer'" />
       </list>
     </recent_temporary>
   </component>
@@ -385,24 +390,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_'002__Add_Two_Numbers' - 2017.04.28 at 11h 18m 42s.xml">
-      <configuration name="All in '002. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'002__Add_Two_Numbers' - 2017.04.28 at 11h 19m 47s.xml">
-      <configuration name="All in '002. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'002__Add_Two_Numbers' - 2017.04.28 at 17h 19m 28s.xml">
-      <configuration name="All in '002. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'002__Add_Two_Numbers' - 2017.04.28 at 17h 19m 40s.xml">
-      <configuration name="All in '002. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'002__Add_Two_Numbers' - 2017.04.28 at 17h 23m 38s.xml">
-      <configuration name="All in '002. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'002__Add_Two_Numbers' - 2017.04.28 at 17h 25m 30s.xml">
-      <configuration name="All in '002. Add Two Numbers'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="All_in_'003__Longest_Substring_Without_Repeating_Characters' - 2017.05.01 at 10h 51m 39s.xml">
       <configuration name="All in '003. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -415,15 +402,32 @@
     <history-entry file="All_in_'003__Longest_Substring_Without_Repeating_Characters' - 2017.05.01 at 11h 00m 15s.xml">
       <configuration name="All in '003. Longest Substring Without Repeating Characters'" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="All_in_'004__Median_of_Two_Sorted_Array' - 2017.05.06 at 10h 53m 59s.xml">
+      <configuration name="All in '004. Median of Two Sorted Array'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'004__Median_of_Two_Sorted_Array' - 2017.05.06 at 10h 56m 10s.xml">
+      <configuration name="All in '004. Median of Two Sorted Array'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'004__Median_of_Two_Sorted_Array' - 2017.05.06 at 10h 57m 08s.xml">
+      <configuration name="All in '004. Median of Two Sorted Array'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'004__Median_of_Two_Sorted_Array' - 2017.05.06 at 10h 57m 41s.xml">
+      <configuration name="All in '004. Median of Two Sorted Array'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'004__Median_of_Two_Sorted_Array' - 2017.05.06 at 10h 58m 20s.xml">
+      <configuration name="All in '004. Median of Two Sorted Array'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="All_in_'004__Median_of_Two_Sorted_Array' - 2017.05.06 at 10h 58m 42s.xml">
+      <configuration name="All in '004. Median of Two Sorted Array'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="780" y="16" width="1139" height="1017" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24933214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -448,6 +452,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/004. Median of Two Sorted Array/004. Median of Two Sorted Arrays.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/004. Median of Two Sorted Array/004. Median of Two Sorted Arrays_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#41#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/002. Add Two Numbers/002. Add Two Numbers.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -539,16 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <element signature="e#61#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/007. Reverse Integer/007. Reverse Integer_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -560,6 +596,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003. Longest Substring Without Repeating Characters/003. Longest Substring Without Repeating Characters_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="71" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/004. Median of Two Sorted Array/004. Median of Two Sorted Arrays_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+          <folding>
+            <element signature="e#41#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/004. Median of Two Sorted Array/004. Median of Two Sorted Arrays.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="21" column="75" lean-forward="true" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
           <folding />
         </state>
       </provider>
