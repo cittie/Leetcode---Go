@@ -1,4 +1,4 @@
-package _07__Reverse_Integer
+package leetcode
 
 func reverse(x int) int {
 	var num, revNum int
@@ -8,9 +8,9 @@ func reverse(x int) int {
 	}
 
 	for num != 0 {
-		revNum = 10 * revNum + num % 10
+		revNum = 10*revNum + num%10
 		num /= 10
-		if revNum > (1 << 31) - 1 {
+		if revNum > (1<<31)-1 {
 			return 0
 		}
 	}

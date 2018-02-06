@@ -1,12 +1,12 @@
-package _01__Two_Sum
+package leetcode
 
 import (
-	"testing"
 	"reflect"
 	"sort"
+	"testing"
 )
 
-func Test_twoSum(t *testing.T)  {
+func Test_twoSum(t *testing.T) {
 
 	nums := []int{1, 2, 7, 11, 15}
 	target := 9
@@ -17,6 +17,6 @@ func Test_twoSum(t *testing.T)  {
 	sort.Ints(r)
 
 	if !reflect.DeepEqual(r, expected) {
-		t.Error("Expected: ", expected, "got: ", r,)
+		t.Error("Expected: ", expected, "got: ", r)
 	}
 }

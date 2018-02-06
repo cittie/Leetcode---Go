@@ -1,29 +1,9 @@
-package _15__3Sum
+package leetcode
 
-import (
-	"testing"
-	"reflect"
-	"sort"
-)
+import "sort"
 
-func Test_threeSum(t *testing.T)  {
-	nums := []int {-1, 0, 1, 2, -1, -4}
-	expected := [][]int {
-		[]int {-1, 0, 1},
-		[]int {-1, -1, 2},
-	}
-	r := threeSum(nums)
-
-	expected = twoDIntSliceSort(expected)
-	r = twoDIntSliceSort(r)
-
-	if !reflect.DeepEqual(r, expected) {
-		t.Error("Expected: ", expected, "got: ", r,)
-	}
-
-}
-
-func twoDIntSliceSort(ss [][]int) [][]int {
+// TwoDIntSliceSort returns a sorted 2D Int Slice
+func TwoDIntSliceSort(ss [][]int) [][]int {
 
 	// Sort each slice
 	for _, s := range ss {

@@ -1,4 +1,4 @@
-package _01__Two_Sum
+package leetcode
 
 func twoSum(nums []int, target int) []int {
 	numMap := map[int]int{}
@@ -9,7 +9,7 @@ func twoSum(nums []int, target int) []int {
 		if ok {
 			result[0], result[1] = i, numMap[num]
 		} else {
-			numMap[target - num] = i
+			numMap[target-num] = i
 		}
 	}
 

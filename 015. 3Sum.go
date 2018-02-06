@@ -1,4 +1,4 @@
-package _15__3Sum
+package leetcode
 
 import (
 	"sort"
@@ -9,11 +9,11 @@ func threeSum(nums []int) [][]int {
 	sort.Ints(nums)
 	n := len(nums)
 
-	for cur := 0; cur < n - 2; cur++ {
-		left, right := cur + 1, n - 1
+	for cur := 0; cur < n-2; cur++ {
+		left, right := cur+1, n-1
 
 		// Skip duplicate current
-		if cur > 0 && nums[cur] == nums[cur - 1] {
+		if cur > 0 && nums[cur] == nums[cur-1] {
 			continue
 		}
 
@@ -24,12 +24,12 @@ func threeSum(nums []int) [][]int {
 				results = append(results, []int{nums[cur], nums[left], nums[right]})
 
 				// Skip duplicate left
-				for right > left && nums[left] == nums[left + 1] {
+				for right > left && nums[left] == nums[left+1] {
 					left++
 				}
 
 				// Skip duplicate right
-				for right > left && nums[right] == nums[right - 1] {
+				for right > left && nums[right] == nums[right-1] {
 					right--
 				}
 
