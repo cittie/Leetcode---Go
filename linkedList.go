@@ -13,31 +13,34 @@ type ListNode struct {
 
 // ConstructLinkedList convert int slice to ListNodes and return the head
 func ConstructLinkedList(s []int) *ListNode {
-	node := &ListNode{}
-	root := node
+	if len(s) == 0 {
+		return nil
+	}
+
+	var root, tail *ListNode
+
+	node := new(ListNode)
+	root = node
 
 	for _, val := range s {
 		node.Val = val
-		node.Next = &ListNode{}
+		node.Next = new(ListNode)
+		tail = node
 		node = node.Next
 	}
 
-	node = nil
+	tail.Next = nil
 
 	return root
 }
 
 // LinkedList2Slice convert ListNodes to int slice
 func LinkedList2Slice(node *ListNode) []int {
-	s := []int{}
+	s := make([]int, 0)
 
-	for node.Next != nil {
+	for node != nil {
 		s = append(s, node.Val)
 		node = node.Next
-	}
-
-	if node.Val != 0 {
-		s = append(s, node.Val)
 	}
 
 	return s
