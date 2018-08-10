@@ -7,7 +7,7 @@ import (
 
 /*
 	思路：和015一样，排序后双指针遍历，记录当前的最接近值
-	可以通过跳过相同的数字优化一点点，但是似乎不值得
+	如果跳过相同的数字，还可以优化不少
  */
 
 func threeSumClosest(nums []int, target int) int {
@@ -18,12 +18,10 @@ func threeSumClosest(nums []int, target int) int {
 	for cur:=0; cur < n-2; cur++ {
 		left, right := cur+1, n-1
 
-		/*
 		// Skip duplicate current
 		if cur > 0 && nums[cur] == nums[cur-1] {
 			continue
 		}
-		*/
 
 		for left < right {
 			sum := nums[cur] + nums[left] + nums[right]
