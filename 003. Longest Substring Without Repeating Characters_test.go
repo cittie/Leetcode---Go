@@ -23,3 +23,9 @@ func Test_lengthOfLongestSubstring(t *testing.T) {
 		}
 	}
 }
+
+func Benchmark_lengthOfLongestSubstring(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		lengthOfLongestSubstring("abcabcbb")
+	}
+}

@@ -23,5 +23,12 @@ func Test_findMedianSortedArrays(t *testing.T) {
 			t.Error("Expected: ", expected[i], "got: ", r)
 		}
 	}
+}
 
+func Benchmark_findMedianSortedArrays(b *testing.B) {
+	nums1, nums2 := []int{1, 2}, []int{3, 4}
+
+	for i := 0; i < b.N; i++ {
+		findMedianSortedArrays(nums1, nums2)
+	}
 }

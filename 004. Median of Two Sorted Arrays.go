@@ -1,7 +1,7 @@
 package leetcode
 
 func findMedianSortedArrays(nums1, nums2 []int) float64 {
-	n := (len(nums1) + len(nums2)) // Used to check odd or even
+	n := len(nums1) + len(nums2) // Used to check odd or even
 	median := (n + 1) >> 1
 	r := float64(bisearch(nums1, nums2, median))
 
@@ -29,7 +29,7 @@ func bisearch(nums1, nums2 []int, median int) int {
 
 	median2 := n2
 	if (median >> 1) < n2 {
-		median2 = (median >> 1)
+		median2 = median >> 1
 	}
 	median1 := median - median2
 

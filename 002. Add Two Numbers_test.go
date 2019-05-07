@@ -39,3 +39,11 @@ func Test_addTwoNumbers(t *testing.T) {
 		}
 	}
 }
+
+func Benchmark_addTwoNumbers(b *testing.B) {
+	p1, p2 := ConstructLinkedList([]int{9, 9, 9}), ConstructLinkedList([]int{9, 9, 9})
+
+	for i := 0; i < b.N; i++ {
+		addTwoNumbers(p1, p2)
+	}
+}
