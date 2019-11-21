@@ -22,3 +22,19 @@ func TestRemoveDuplicates(t *testing.T) {
 		assert.Equal(t, test.after, test.in[:test.out])
 	}
 }
+
+func BenchmarkRemoveDuplicates1(b *testing.B) {
+	in := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
+
+	for i := 0; i < b.N; i++ {
+		removeDuplicates(in)
+	}
+}
+
+func BenchmarkRemoveDuplicates2(b *testing.B) {
+	in := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
+
+	for i := 0; i < b.N; i++ {
+		removeDuplicates2(in)
+	}
+}
