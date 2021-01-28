@@ -8,8 +8,8 @@ import (
 func Test_threeSum(t *testing.T) {
 	nums := []int{-1, 0, 1, 2, -1, -4}
 	expected := [][]int{
-		[]int{-1, 0, 1},
-		[]int{-1, -1, 2},
+		{-1, 0, 1},
+		{-1, -1, 2},
 	}
 	r := threeSum(nums)
 

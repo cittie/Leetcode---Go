@@ -4,12 +4,12 @@ import "testing"
 
 func Test_findMedianSortedArrays(t *testing.T) {
 	nums1 := [][]int{
-		[]int{1, 2},
-		[]int{1, 2},
+		{1, 2},
+		{1, 2},
 	}
 	nums2 := [][]int{
-		[]int{2},
-		[]int{3, 4},
+		{2},
+		{3, 4},
 	}
 
 	expected := []float64{
