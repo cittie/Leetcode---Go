@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestMyAtoi(t *testing.T) {
+func Test_myAtoi(t *testing.T) {
 	tests := []struct {
 		in  string
 		out int
