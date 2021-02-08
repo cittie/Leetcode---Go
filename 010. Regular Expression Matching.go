@@ -1,7 +1,21 @@
 package leetcode
 
 func isMatch(s string, p string) bool {
-	return false
+	lenS, lenP := len(s), len(p)
+
+	// p为空
+	if lenP == 0 {
+		return lenS == 0
+	}
+
+	if lenP > 1 && p[1] == '*' {
+		return (lenS > 0 && (s[0] == p[0] || p[0] == '.')) &&
+			isMatch(s[1:], p) || isMatch(s, p[2:])
+	}
+
+	return lenS > 0 &&
+		(s[0] == p[0] || p[0] == '.') &&
+		isMatch(s[1:], p[1:])
 }
 
 func isMatchDP(s string, p string) bool {
@@ -33,9 +47,12 @@ func isMatchDP(s string, p string) bool {
 	for i := 0; i <= lenS; i++ {
 		for j := 1; j <= lenP; j++ {
 			if j > 1 && p[j-1] == '*' {
-				dp[i][j] = dp[i][j-2] || (i > 0 && (p[j-2] == s[i-1] || p[j-2] == '.') && dp[i-1][j])
+				dp[i][j] = dp[i][j-2] ||
+					(i > 0 && (p[j-2] == s[i-1] || p[j-2] == '.') && dp[i-1][j])
 			} else {
-				dp[i][j] = i > 0 && dp[i-1][j-1] && (p[j-1] == s[i-1] || p[j-1] == '.')
+				dp[i][j] = i > 0 &&
+					dp[i-1][j-1] &&
+					(p[j-1] == s[i-1] || p[j-1] == '.')
 			}
 		}
 	}
