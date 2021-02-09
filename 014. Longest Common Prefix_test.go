@@ -26,3 +26,23 @@ func Test_longestCommonPrefix(t *testing.T) {
 		}
 	}
 }
+
+func Benchmark_longestCommonPrefix(b *testing.B) {
+	in := []string{"oneoneone", "oneone", "one"}
+
+	b.Run("string", func(b *testing.B) {
+		b.ReportAllocs()
+
+		for i := 0; i < b.N; i++ {
+			longestCommonPrefix(in)
+		}
+	})
+
+	b.Run("byte", func(b *testing.B) {
+		b.ReportAllocs()
+
+		for i := 0; i < b.N; i++ {
+			longestCommonPrefixNew(in)
+		}
+	})
+}
